@@ -1,3 +1,9 @@
+/**
+ * 
+ * Usage:
+ * g++ winograd_gpu.cpp clhelp.cpp -framework OpenCL -o winograd_gpu
+ * 
+ */ 
 #include <cstring>
 #include <cstdio>
 #include <cstdlib>

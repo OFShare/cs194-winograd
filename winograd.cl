@@ -5,7 +5,7 @@
 #define alpha 4
 
 /* For the filter g located at FILTERS[k][c], computes the transformation
- * u = G * g * G^T. Then, catters each matrix u into the output U. 
+ * u = G * g * G^T. Then, scatters each matrix u into the output U. 
  * G has dimensions (alpha,r)*/
 __kernel void filter_transform(__global float *filters,
         __constant float *G,
